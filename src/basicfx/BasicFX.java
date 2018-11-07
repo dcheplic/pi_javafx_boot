@@ -27,7 +27,7 @@ public class BasicFX extends Application {
             
             @Override
             public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
+                primaryStage.close();
             }
         });
         
