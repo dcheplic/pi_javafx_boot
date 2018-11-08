@@ -22,7 +22,7 @@ public class BasicFX extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+        btn.setText("KILL ME'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
             
             @Override
@@ -37,7 +37,7 @@ public class BasicFX extends Application {
         Scene scene = new Scene(root, 300, 250);
         
         primaryStage.setFullScreen(true);
-        primaryStage.setTitle("THIS BUTTON KILLS ME");
+        primaryStage.setTitle("Testing Boot!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
