@@ -22,7 +22,7 @@ public class BasicFX extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("KILL ME'");
+        btn.setText("KILL ME");
         btn.setOnAction(new EventHandler<ActionEvent>() {
             
             @Override
