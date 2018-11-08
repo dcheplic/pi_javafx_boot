@@ -36,7 +36,8 @@ public class BasicFX extends Application {
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setFullScreen(true);
+        primaryStage.setTitle("THIS BUTTON KILLS ME");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
